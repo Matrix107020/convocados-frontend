@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Registro - Retos Deportivos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+    <main class="login-container">
+        <!-- Sección de Logo y Bienvenida -->
+        <div class="logo-section">
+            <h1 class="app-title">Zona<span>Reto</span></h1>
+            <p class="welcome-text">¡Entra a la cancha! Únete a los mejores retos de tu distrito.</p>
+        </div>
+
+        <!-- Formulario de Registro -->
+        <form class="login-form">
+            <div class="input-group">
+                <label for="phone">Número de celular</label>
+                <div class="phone-input-wrapper">
+                    <span class="country-code">+51</span>
+                    <input type="tel" id="phone" placeholder="999 999 999" pattern="[0-9]{9}" required>
+                </div>
+            </div>
+            
+            <!-- El botón tipo submit activará la validación -->
+            <button type="submit" class="btn-primary">Enviar código por SMS</button>
+        </form>
+    </main>
+</body>
+</html>

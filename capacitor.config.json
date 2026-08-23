@@ -1,0 +1,12 @@
+{
+  "appId": "com.jorge.convocados",
+  "appName": "CONVOCADOS",
+  "webDir": "www",
+  "server": {
+    "url": "https://matrix107020.github.io/convocados-frontend/",
+    "cleartext": true
+  },
+  "assets": {
+    "icon": "assets/logo"
+  }
+}

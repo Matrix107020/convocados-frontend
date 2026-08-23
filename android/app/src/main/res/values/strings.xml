@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CONVOCADOS</string>
+    <string name="title_activity_main">CONVOCADOS</string>
+    <string name="package_name">com.jorge.convocados</string>
+    <string name="custom_url_scheme">com.jorge.convocados</string>
+</resources>
